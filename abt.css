@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+img{
+  float: right;
+  height: 100%;
+  width: 30%;
+}
+
+  .content{
+    position: absolute;
+    top: 5%;
+    left: 0%;
+}
+.content h1{
+  background: linear-gradient(120deg, purple 40%, plum 60%);
+  font-size: 80px;
+  font-weight: 900;
+  line-height: 50px;
+  text-transform: inherit;
+  width: 70%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.content p{
+  width: 55%;
+  color: #757575;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
